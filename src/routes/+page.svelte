@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Carrousel from '$lib/components/Carrousel/Carrousel.svelte';
+	import Carousel from '$lib/components/Carrousel/Carrousel.svelte';
 	import Icon from '$lib/components/Icon/Icon.svelte';
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
 	import { titleSuffix } from '@data/app';
@@ -41,5 +41,5 @@
 			{/each}
 		</div>
 	</div>
-	<Carrousel items={skills ?? skillsItems} />
+	<Carousel items={skills ?? skillsItems} />
 </div>
